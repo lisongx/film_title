@@ -1,0 +1,9 @@
+SELECT ?item ?title ?publishedAt
+WHERE
+{
+  ?item wdt:P31 wd:Q11424.
+  ?item wdt:P1476 ?title.
+  ?item wdt:P577 ?publishedAt.
+
+  FILTER (lang(?title) = "en").
+}
