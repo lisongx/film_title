@@ -13,6 +13,6 @@ DATA_ROOT = os.path.join(project_root, 'data')
 
 
 __all__ = [
-    'project_root',
-    'data_root'
+    'DATA_ROOT',
+    'PROJECT_ROOT'
 ]
