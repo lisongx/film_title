@@ -9,7 +9,7 @@ def get_project_root() -> Path:
 
 PROJECT_ROOT = get_project_root()
 
-DATA_ROOT = os.path.join(project_root, 'data')
+DATA_ROOT = os.path.join(PROJECT_ROOT, 'data')
 
 
 __all__ = [

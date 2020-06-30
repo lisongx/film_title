@@ -1,9 +1,10 @@
-SELECT ?item ?title ?publishedAt
+SELECT ?item ?title (MIN(?publishedAt) as ?published)
 WHERE
 {
   ?item wdt:P31 wd:Q11424.
   ?item wdt:P1476 ?title.
   ?item wdt:P577 ?publishedAt.
-
-  FILTER (lang(?title) = "en").
+  FILTER (lang(?title) = "en" && !wikibase:isSomeValue(?publishedAt) ).
 }
+GROUP BY ?item ?title
+ORDER BY ASC(?published)
