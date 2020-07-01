@@ -11,6 +11,7 @@ pip install -r requirements.txt
 or
 ```shell
 conda env create -f ./film_title_env.yml
+conda activate film_title
 ```
 
 ## Generating new films data
