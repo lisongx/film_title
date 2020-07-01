@@ -8,3 +8,15 @@ Recommand Python version: 3.8.3
 ```python
 pip install -r requirements.txt
 ``` 
+
+
+
+\-
+- [片头。（only](https://www.douban.com/photos/album/119457425/)
+- [The Movie Title Collection](https://www.douban.com/photos/album/1628118090/)
+- [电影名出现的那一瞬间](https://www.douban.com/photos/album/43066716/)
+- [漂亮的开始](https://www.douban.com/photos/album/63246190/)
+- [片名出现在几分几秒](https://www.douban.com/photos/album/127285806/)
+- [那些开始](https://www.douban.com/photos/album/81549904/)
+- [电影中的字体（及片头）设计](https://www.douban.com/photos/album/65903377/)
+- [电影片名截图](https://www.douban.com/photos/album/69258830/)
