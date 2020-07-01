@@ -16,7 +16,7 @@ conda activate film_title
 
 ## Generating new films data
 
-```python
+```shell
 python src/get_source_data.py
 ```
 
