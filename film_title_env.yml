@@ -1,0 +1,28 @@
+# run
+# conda env create -f ./film_title_env.yml
+# in the root foloder
+name: film_title
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pip==9.0.1
+  - numpy==1.14.6
+  - pandas==1.0.5
+  - matplotlib==2.2.2
+  - nb_conda
+  - pytest
+  - scipy==1.3.0
+  - pip:
+    - pyyaml==3.12
+    - sklearn==0.0
+    - xgboost==0.82 
+    # https://pypi.org/project/xgboost/
+    - spacy==2.3.0
+    # https://pypi.org/project/spacy/
+    - install==1.3.3
+    - isodate==0.6.0
+    - pyparsing==2.4.7
+    - rdflib==5.0.0
+    - six==1.15.0
+    - SPARQLWrapper==1.8.5
